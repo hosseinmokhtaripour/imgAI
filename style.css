@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: homa;
+  background-color: #004cbb;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+header{
+  color: #073b4c;
+  font-size: 20pt;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  text-shadow:
+   -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white;
+}
+svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+.bottomSection{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+}
+.inputContainer{
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+}
+input{
+  width: 100%;
+  border: none;
+  font-size: 21px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: homa;
+  box-shadow: #26394D 0 20px 30px -10px;
+  box-sizing: border-box;
+}
+#submitBtn{
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.imgSection{
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+.imgContainer{
+  width: 48%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: #26394D 0 20px 30px -10px;
+  margin-bottom: 10px;
+}
+.imgContainer img{
+  width : 100%;
+}
